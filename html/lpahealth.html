@@ -3,250 +3,239 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
+	<head>
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>Camrass Wills</title>
-	<meta name="description" content="Camrass Wills">
-	<meta name="author" content="brookmead.co.uk">
+		<!-- Basic Page Needs ================================================== -->
+		<meta charset="utf-8">
+		<title>Camrass Wills</title>
+		<meta name="description" content="Camrass Wills">
+		<meta name="author" content="brookmead.co.uk">
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- Mobile Specific Metas ================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- CSS ================================================== -->
+		<link rel="stylesheet" href="stylesheets/skeleton.css">
+		<link rel="stylesheet" href="stylesheets/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>	
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>	
 
-	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" media="screen" href="stylesheets/sequencejs-theme.sliding-horizontal-parallax-ie.css" /><![endif]-->
+		<!--[if lt IE 9]><link rel="stylesheet" type="text/css" media="screen" href="stylesheets/sequencejs-theme.sliding-horizontal-parallax-ie.css" /><![endif]-->
 
-	<link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="stylesheets/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-	<link rel="stylesheet" href="stylesheets/carousel.css" type="text/css" media="screen" />
-	
-	<!-- JS ================================================== -->	
-	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/common.js"></script>
-	
-	
-	<script type="text/javascript" src="js/sequence.jquery-min.js"></script>	
-	<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+		<link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="stylesheets/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="stylesheets/carousel.css" type="text/css" media="screen" />
 
-	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+		<!-- JS ================================================== -->	
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
-	<!-- Favicons ================================================== -->
-	<link rel="shortcut icon" href="images/favicon.png">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-	<script>
-		window.addEventListener("load", function(){
-			window.cookieconsent.initialise({
-				"palette": {
-					"popup": {
-						"background": "#252e39"
-					},
-					"button": {
-						"background": "#14a7d0"
+		<script type="text/javascript" src="js/sequence.jquery-min.js"></script>	
+		<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+
+		<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+		<!-- Favicons ================================================== -->
+		<link rel="shortcut icon" href="images/favicon.png">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+		<script>
+			window.addEventListener("load", function(){
+				window.cookieconsent.initialise({
+					"palette": {
+						"popup": {
+							"background": "#252e39"
+						},
+						"button": {
+							"background": "#14a7d0"
+						}
 					}
-				}
-			})});
-	</script>
-	<script type="text/javascript" >
-		jQuery(document).ready(function() {
-			$('a#downloadTsAndCs').attr({target: '_blank', href: 'Terms_and_Conditions.pdf'});
-		});	
-	</script>
-</head>
-<body>
-  <div id="wrapper">
-  
-	<div class="container">
-		<!-- Main Navigation -->
-		<div class="sixteen columns">
-			<div class="topnav" id="mytopnav">
-				<a href="index.html">Home</a>
-				<div class="dropdown">
-					<button class="dropbtn">Services 
-						<i class="fa fa-caret-down"></i>
-					</button>
-					<div class="dropdown-content">
-						<a href="wills.html"><span>Wills</span></a>
-						<a href="tenantsincommon.html"><span>Tenants in Common</span></a>
-						<a href="powersofattorney.html"><span>Power of Attorney</span></a>
-						<a href="lpafinancial.html"><span>LPA Financial</span></a>
-						<a href="lpahealth.html"><span>LPA Health &amp; Welfare</span></a>
-						<a href="probate.html"><span>Probate</span></a>
-						<a href="funeral.html"><span>Funeral Planning</span></a>
-						<a href="businessWills.html"><span>Business Wills</span></a>
-						<a href="contact.html" class="last_submenu_item"><span>Contact Us</span></a>
-					</div>
-				</div> 
-				<a href="prices.html">Prices</a>
-				<a href="about.html">About Camrass Wills</a>
-				<a href="contact.html">Contact</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					<i class="fa fa-bars"></i></a>
-			</div>
-		</div>
-		<!-- Main Navigation::END -->
-		
-		<div class="header clearfix row">
-			<div class="eight columns header_left">
-				<div class="logo">
-					<a href="index.html">
-						<img class="logo" src="images/logo_2019.jpg" >
-					</a>
-				</div>
-			</div>
-			<div class="eight columns" >
-				<div class="header_right" >
-					<div class="header_contacts clearfix" >
-						<div class="header_phone">t:01622 720985 m:07747 007971</div>
-						<div class="header_mail">peter@camrasswills.co.uk</div>
-<br/>
-						<div class="header_phone">t:01273 976967 m:07581 119678</div>
-						<div class="header_mail">lucy@camrasswills.co.uk&nbsp;&nbsp;</div>
-						<br/><br/>
-                                                <div><a href = "http://safehandsplans.co.uk/aff/1328/camrass-wills"><h3 class="header_funerals"><u><strong>For details of Funeral Plans click here.</strong></u></h3></a></div>
-					 </div>			
-				</div>
-			</div>
-		</div>
+				})});
+		</script>
+		<script type="text/javascript" >
+			jQuery(document).ready(function() {
+				$('a#downloadTsAndCs').attr({target: '_blank', href: 'Terms_and_Conditions.pdf'});
+			});	
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
 
-	<div class="row">
-			<div class="sixteen columns clearfix">
-				<div class="breadcrumb">
-			        <a href="index.html" class="first_bc"><span>Home</span></a>
-			        <a href="lpahealth.html" class="last_bc"><span>LPA Health & Welfare</span></a>
-			    </div>
-			   
-			</div>
-		</div>		
-			<div class="row section_featured_texts">
+			<div class="container">
+				<!-- Main Navigation -->
 				<div class="sixteen columns">
-			    <span class="icon big_university"></span>
-				<h3>Lasting Power of Attorney - Health & Welfare</h3>
-				<p><a id="downloadGuide">Click here to download my Guide to Lasting Powers of Attorney</a></p>
-<p>
-Everybody who makes a Lasting Powers of Attomey - Property & Financial Affairs (LPA-PA) should also make a 'Lasting Power of
-Attorney - Health & Welfare (LPA-HW) for the following reasons.</p> <p>
-lf you care enough about having your property and financial affairs looked after by somebody you have appointed in the event of you
-being unable to do so yourself, then you ought to care even more about your personal welfare and healthcare being properly
-looked after by somebody you have appointed if. again. you are unable to look after things yourself
-An LPA-HW allows you to appoint one or more Attorneys to make decisions on your behalf about your personal welfare and healthcare,
-including whether to give or refuse consent to medical treatment on your behalf and deciding where you live.
-These decisions can only be taken on your behalf when you lack the capacity to make them yourself. for example if you are ill,
-unconscious or because of the onset of a condition such as dementia.</p>
-<p>
-The consequences of not having an LPA-HW are similar to those of not having an (LPA-PA). If for any reason you suddenly become unable to make your own decisions, e.g.</p><p>
-- You suffer an accident and are confined to bed or hospital</p><p>
-- You suffer a more serious accident which permanently incapacitates you</p><p>
-- You become mentally incapacitated as a result of old age or for some other reason</p>
+					<div class="topnav" id="mytopnav">
+						<a href="index.html">Home</a>
+						<div class="dropdown">
+							<button class="dropbtn">Services 
+								<i class="fa fa-caret-down"></i>
+							</button>
+							<div class="dropdown-content">
+								<a href="wills.html"><span>Wills</span></a>
+								<a href="tenantsincommon.html"><span>Tenants in Common</span></a>
+								<a href="powersofattorney.html"><span>Power of Attorney</span></a>
+								<a href="lpafinancial.html"><span>LPA Financial</span></a>
+								<a href="lpahealth.html"><span>LPA Health &amp; Welfare</span></a>
+								<a href="probate.html"><span>Probate</span></a>
+								<a href="funeral.html"><span>Funeral Planning</span></a>
+								<a href="businessWills.html"><span>Business Wills</span></a>
+								<a href="contact.html" class="last_submenu_item"><span>Contact Us</span></a>
+							</div>
+						</div> 
+						<a href="prices.html">Prices</a>
+						<a href="about.html">About Camrass Wills</a>
+						<a href="contact.html">Contact</a>
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa fa-bars"></i></a>
+					</div>
+				</div>
+				<!-- Main Navigation::END -->
 
-<p>
-In this case an application has to be made [by a relative or other person close to you) to the Court of Protection. This can take up to 10
-months and cost in excess of &pound;1000 to process - during which time no important decisions regarding your healthcare could be made
-other than by a doctor treating you - and the person eventually appointed to make decisions on your behalf may not be the one who you
-would have chosen but may even be a Court Official ~ who can (and will) charge every time he/she acts for you.</p><p>
-However, if you do have an LPA-HW, your chosen representatives can make decisions for you straight away if you become unable to
-make them yourself.</p><p>
-Note that you must be mentally capable to make an LPA-HW. Therefore - just like a Will and an LPA-PA - if you don't have one then by
-the time you really need one it's too late.</p><p>
-What your Attorney(s) can do will depend on the powers that you give them when making your LPA-PA.</p><p>
-If you include no restrictions in your LPA-HW, then your Attorney(s) will be able to make any decisions regarding your personal welfare
-that you would have been able to make such as :-</p><p>
-- giving or refusing consent to particular types of health care, including medical treatment decisions</p><p>
-- staying in your own home, perhaps with help and support from social services</p><p>
-- moving into residential housing and choosing the right care home for you</p><p>
-- day~to~day issues, for example about your diet, your dress or your daily routine</p><p>
+				<!-- Header -->
+				<div class="header clearfix row">
+					<div class="four columns">
+						<div class="logo">
+							<br />
+							<a href="index.html">
+								<img class="logo" src="images/logo_2019.jpg" >
+							</a>
+						</div>
+					</div>
+					<div class="twelve columns" >
+						<div class="header_right" >
+							<div class="header_contacts clearfix" >
+								<div class="header_phone">t:<a href="tel:01622 720985">01622 720985</a> m:<a href="tel:07747 007971">07747 007971</a></div>
+								<div class="header_mail">peter@camrasswills.co.uk</div>
+								<br/>
+								<div class="header_phone">t:<a href="tel:01273 976967">01273 976967</a> m:<a href="tel:07581 119678">07581 119678</a>								</div>
+								<div class="header_mail">lucy@camrasswills.co.uk&nbsp;&nbsp;</div>
+								<br/><br/>
+								<div><a href = "http://safehandsplans.co.uk/aff/1328/camrass-wills"><h3 class="header_funerals"><u><strong>For details of Funeral Plans click here.</strong></u></h3></a></div>
+							</div>			
+						</div>
+					</div>
+				</div>
+				<!-- Header::END -->
 
-However, they cannot just do whatever they like. They will only be able to make decisions that are in your best interests and they will
-only be able to make them if they are able to establish that you are unable to make them yourself. They must follow the principles of the
-Mental Capacity Act 2005 Code of Practice at all times when acting.</p><p>
-Additionally, you are able to specify in your LPA-HW whether or not your Attorney(s) are permitted to give or refuse consent to life-
-sustaining treatment on your behalf. There is a special section for this in the LPA-HW document, which you sign separately when
-signing the LPA-HW.</p>
-<p>What if l already have a Living Will?</p><p>
-If you made an 'Advance Decision' (sometimes known as a living will) before 1st October 2007 then it may still be valid However, you
-should check that it meets the new rules (i.e. the Mental Capacity Act 2005) - particularly if it deals with life-sustaining treatments More
-detailed guidance on this is available at <a href="http://www.justice.gov.uk/downloads/forms/opg/lpa-guidance-health-and-welfare.pdf">http://www.justice.gov.uk/downloads/forms/opg/lpa-guidance-health-and-welfare.pdf</a> </p><p>
-It is highly likely that the best thing for you to do is make an LPA-HW and ensure that your attorneys know your wishes. Your 'Advance
-Decision' can run alongside the LPA as a guide for your Attorneys or it may no longer be needed.</p><p>
-Finally, the LPA-HW cannot be used until is has been registered at the Office of the Public Guardian (OPG).
+				<div class="row section_featured_texts">
+					<div class="sixteen columns">
+						<span class="icon big_university"></span>
+						<h3>Lasting Power of Attorney - Health &amp; Welfare</h3>
+						<p><a id="downloadGuide">Click here to download my Guide to Lasting Powers of Attorney</a></p>
+						<p>
+							Everybody who makes a Lasting Powers of Attomey - Property &amp; Financial Affairs (LPA-PA) should also make a 'Lasting Power of
+							Attorney - Health &amp; Welfare (LPA-HW) for the following reasons.</p> <p>
+						lf you care enough about having your property and financial affairs looked after by somebody you have appointed in the event of you
+						being unable to do so yourself, then you ought to care even more about your personal welfare and healthcare being properly
+						looked after by somebody you have appointed if. again. you are unable to look after things yourself
+						An LPA-HW allows you to appoint one or more Attorneys to make decisions on your behalf about your personal welfare and healthcare,
+						including whether to give or refuse consent to medical treatment on your behalf and deciding where you live.
+						These decisions can only be taken on your behalf when you lack the capacity to make them yourself. for example if you are ill,
+						unconscious or because of the onset of a condition such as dementia.</p>
+						<p>
+							The consequences of not having an LPA-HW are similar to those of not having an (LPA-PA). If for any reason you suddenly become unable to make your own decisions, e.g.</p><p>
+						- You suffer an accident and are confined to bed or hospital</p><p>
+						- You suffer a more serious accident which permanently incapacitates you</p><p>
+						- You become mentally incapacitated as a result of old age or for some other reason</p>
+
+						<p>
+							In this case an application has to be made [by a relative or other person close to you) to the Court of Protection. This can take up to 10
+							months and cost in excess of &pound;1000 to process - during which time no important decisions regarding your healthcare could be made
+							other than by a doctor treating you - and the person eventually appointed to make decisions on your behalf may not be the one who you
+							would have chosen but may even be a Court Official ~ who can (and will) charge every time he/she acts for you.</p><p>
+						However, if you do have an LPA-HW, your chosen representatives can make decisions for you straight away if you become unable to
+						make them yourself.</p><p>
+						Note that you must be mentally capable to make an LPA-HW. Therefore - just like a Will and an LPA-PA - if you don't have one then by
+						the time you really need one it's too late.</p><p>
+						What your Attorney(s) can do will depend on the powers that you give them when making your LPA-PA.</p><p>
+						If you include no restrictions in your LPA-HW, then your Attorney(s) will be able to make any decisions regarding your personal welfare
+						that you would have been able to make such as :-</p><p>
+						- giving or refusing consent to particular types of health care, including medical treatment decisions</p><p>
+						- staying in your own home, perhaps with help and support from social services</p><p>
+						- moving into residential housing and choosing the right care home for you</p><p>
+						- day~to~day issues, for example about your diet, your dress or your daily routine</p><p>
+
+						However, they cannot just do whatever they like. They will only be able to make decisions that are in your best interests and they will
+						only be able to make them if they are able to establish that you are unable to make them yourself. They must follow the principles of the
+						Mental Capacity Act 2005 Code of Practice at all times when acting.</p><p>
+						Additionally, you are able to specify in your LPA-HW whether or not your Attorney(s) are permitted to give or refuse consent to life-
+						sustaining treatment on your behalf. There is a special section for this in the LPA-HW document, which you sign separately when
+						signing the LPA-HW.</p>
+						<p>What if l already have a Living Will?</p><p>
+						If you made an 'Advance Decision' (sometimes known as a living will) before 1st October 2007 then it may still be valid However, you
+						should check that it meets the new rules (i.e. the Mental Capacity Act 2005) - particularly if it deals with life-sustaining treatments More
+						detailed guidance on this is available at <a href="http://www.justice.gov.uk/downloads/forms/opg/lpa-guidance-health-and-welfare.pdf">http://www.justice.gov.uk/downloads/forms/opg/lpa-guidance-health-and-welfare.pdf</a> </p><p>
+						It is highly likely that the best thing for you to do is make an LPA-HW and ensure that your attorneys know your wishes. Your 'Advance
+						Decision' can run alongside the LPA as a guide for your Attorneys or it may no longer be needed.</p><p>
+						Finally, the LPA-HW cannot be used until is has been registered at the Office of the Public Guardian (OPG).
 
 
 
-	
-			</div>	
-		
-		</div>
 
-	<!-- Footer -->
-	<div id="footer" class="container">
-		<div class="row footer_inside">
-		  <div class="four columns">
-		    <h3>About Peter</h3>
-		    <p>I have over 30 years experience in the ﬁnancial services industry. Twenty of those
-were working for large UK insurers; National Mutual, Scottish Equitable and Clerical
-Medical.<a href="about.html"> read more...</a>
+					</div>	
 
+				</div>
 
-.</p>
-		  </div>
-		  <div class="four columns">
-		    <h3 class="margined_left">Navigation</h3>
-		    <ul class="margined_left">
-		    	<li><a href="index.html">Home</a></li>
-		    	<li><a href="services.html">Services</a></li>
-		    	<li><a href="about.html">About Us</a></li>
-		    	<li><a href="contact.html">Contact Us</a></li>
-		    </ul>
-		  </div>
-		  <div class="four columns">	   
-		    <h3 class="margined_left">T &amp; C's</h3>
-		    <ul class="margined_left">
-		    	<li><a id="downloadTsAndCs" >Terms &amp; Conditions</a></li>
-		    	<li><a href="privacy.html">Privacy Policy</a></li>
-  	    </ul>
-		  </div>
+				<!-- Footer -->
+				<div id="footer" class="container">
+					<div class="row footer_inside">
+						<div class="four columns">
+							<h3>About Peter</h3>
+							<p>I have over 30 years experience in the ﬁnancial services industry. Twenty of those
+								were working for large UK insurers; National Mutual, Scottish Equitable and Clerical
+								Medical.<a href="about.html"> read more...</a>
+							</p>
+						</div>
+						<div class="four columns">
+							<h3 class="margined_left">Navigation</h3>
+							<ul class="margined_left">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="four columns">	   
+							<h3 class="margined_left">T &amp; C's</h3>
+							<ul class="margined_left">
+								<li><a id="downloadTsAndCs" >Terms &amp; Conditions</a></li>
+								<li><a href="privacy.html">Privacy Policy</a></li>
+							</ul>
+						</div>
 
-		  <div class="four columns">
-		  	<h3>Get in Touch</h3>
-		  	<div class='icon_phone' title='Phone'>t: 01622 720985
-		  	<p>m: 07747 007971 </p>
-		  	</div>
-		    <div class='icon_mail' title='Email'>peter@camrasswills.co.uk</div>	
-		    <div class='icon_loc' title='Location'>1 River Close, East Farleigh, Maidstone, Kent ME15 0JF</div>	
-		    
-		  	<div class='clear'></div>
-		  	<div class='h10'></div>
-		
-		  </div> 
-	  </div> 
-	  <div class="clear"></div>
-	  <div class="footer_btm">
-	  	<div class="footer_btm_inner">
-		  	<div id="powered"><a href="http://www.camrasswills.co.uk" target="_blank">Camrass Wills</a> © 2012 &nbsp; | &nbsp; <a href="http://www.brookmead.co.uk" target="_blank">Brookmead</a></div>
-		</div>	  
-	  </div>
-	</div>
-	<script type="text/javascript" >
-		jQuery(document).ready(function() {
-			$('a#downloadGuide').attr({target: '_blank', href: 'Guide to Lasting Powers of Attorney.pdf'});
-		});	
-	</script>
-</body>
-</html>
+						<div class="four columns">
+							<h3>Get in Touch</h3>
+							<div class="icon_phone" title="Phone" >t: <a href="tel:01622 720985">01622 720985</a>
+								<p>m: <a href="tel:07747 007971">07747 007971</a></p>
+							</div>
+							<div class='icon_mail' title='Email'>peter@camrasswills.co.uk</div>	
+							<div class='icon_loc' title='Location'>1 River Close, East Farleigh, Maidstone, Kent ME15 0JF</div>	
+
+							<div class='clear'></div>
+							<div class='h10'></div>
+
+						</div> 
+					</div> 
+					<div class="clear"></div>
+					<div class="footer_btm">
+						<div class="footer_btm_inner">
+							<div id="powered"><a href="http://www.camrasswills.co.uk" target="_blank">Camrass Wills</a> © 2012 &nbsp; | &nbsp; <a href="http://www.brookmead.co.uk" target="_blank">Brookmead</a></div>
+						</div>	  
+					</div>
+				</div>
+				<script type="text/javascript" >
+					jQuery(document).ready(function() {
+						$('a#downloadGuide').attr({target: '_blank', href: 'Guide to Lasting Powers of Attorney.pdf'});
+					});	
+				</script>
+				</body>
+			</html>
