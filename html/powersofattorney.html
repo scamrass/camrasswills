@@ -15,39 +15,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!-- CSS ================================================== -->
-		<link rel="stylesheet" href="stylesheets/skeleton.css">
-		<link rel="stylesheet" href="stylesheets/style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/skeleton.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/style.css">
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>	
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600" rel="stylesheet" type="text/css">	
 
 		<!--[if lt IE 9]><link rel="stylesheet" type="text/css" media="screen" href="stylesheets/sequencejs-theme.sliding-horizontal-parallax-ie.css" /><![endif]-->
 
-		<link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="stylesheets/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="stylesheets/carousel.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../stylesheets/flexslider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../stylesheets/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="../stylesheets/carousel.css" type="text/css" media="screen" />
 
 		<!-- JS ================================================== -->	
-		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+		<script type="module" src="../js/page-header.js" defer></script>
+		<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
 
 
-		<script type="text/javascript" src="js/sequence.jquery-min.js"></script>	
-		<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+		<script type="text/javascript" src="../js/sequence.jquery-min.js"></script>	
+		<script type="text/javascript" src="../js/jquery.quicksand.js"></script>
 
-		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-		<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+		<script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="../js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.tipsy.js"></script>
 
 		<!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
 		<!-- Favicons ================================================== -->
-		<link rel="shortcut icon" href="images/favicon.png">
+		<link rel="shortcut icon" href="../images/favicon.png">
 		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+		
 		<script>
 			window.addEventListener("load", function(){
 				window.cookieconsent.initialise({
@@ -100,31 +102,7 @@
 				</div>
 				<!-- Main Navigation::END -->
 
-				<!-- Header -->
-				<div class="header clearfix row">
-					<div class="four columns">
-						<div class="logo">
-							<br />
-							<a href="index.html">
-								<img class="logo" src="images/logo_2019.jpg" >
-							</a>
-						</div>
-					</div>
-					<div class="twelve columns" >
-						<div class="header_right" >
-							<div class="header_contacts clearfix" >
-								<div class="header_phone">t:<a href="tel:01622 720985">01622 720985</a> m:<a href="tel:07747 007971">07747 007971</a></div>
-								<div class="header_mail">peter@camrasswills.co.uk</div>
-								<br/>
-								<div class="header_phone">t:<a href="tel:01273 976967">01273 976967</a> m:<a href="tel:07581 119678">07581 119678</a>								</div>
-								<div class="header_mail">lucy@camrasswills.co.uk&nbsp;&nbsp;</div>
-								<br/><br/>
-								<div><a href = "http://safehandsplans.co.uk/aff/1328/camrass-wills"><h3 class="header_funerals"><u><strong>For details of Funeral Plans click here.</strong></u></h3></a></div>
-							</div>			
-						</div>
-					</div>
-				</div>
-				<!-- Header::END -->
+				<page-header></page-header>
 
 				<div class="row section_featured_texts">
 					<div class="sixteen columns">

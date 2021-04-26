@@ -1207,6 +1207,19 @@ a:hover .img_overlay_zoom {
 	margin-right: 12px;
 	margin-left: 54px;
 }
+.remote_working a {
+	font-size: 19px;
+	font-weight: 600;
+	text-align: center;
+	color: #555;
+	letter-spacing: -1px;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+.remote_working a:hover {
+	text-decoration:underline;
+}
 
 .media_item {
 	border-bottom: 1px dotted #EEE;
