@@ -51,7 +51,7 @@ class PageFooter extends HTMLElement {
 				<div class="clear"></div>
 				<div class="footer_btm">
 					<div class="footer_btm_inner">
-						<div id="powered"><a href="http://www.camrasswills.co.uk" target="_blank">Camrass Wills</a> © 2012 &nbsp; | &nbsp; <a href="http://www.brookmead.co.uk" target="_blank">Brookmead</a></div>
+						<div id="powered"><a href="http://www.camrasswills.co.uk" target="_blank">Camrass Wills</a> © 2021 &nbsp; | &nbsp; <a href="http://www.brookmead.co.uk" target="_blank">Brookmead</a></div>
 					</div>	  
 				</div>
 			</div>
