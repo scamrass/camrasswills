@@ -27,8 +27,8 @@ class MainNavigation extends HTMLElement {
               </div>
           </div> 
           <a href="prices.html">Prices</a>
-          <a href="about.html">About Camrass Wills</a>
-          <a href="contact.html">Contact</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i></a>
       </div>
