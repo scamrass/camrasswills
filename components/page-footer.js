@@ -41,7 +41,7 @@ class PageFooter extends HTMLElement {
 							<p>m: <a href="tel:07747 007971">07747 007971</a></p>
 						</div>
 						<div class='icon_mail' title='Email'>peter@camrasswills.co.uk</div>	
-						<div class='icon_loc' title='Location'>1 River Close, East Farleigh, Maidstone, Kent ME15 0JF</div>	
+						<div class='icon_loc' title='Location'>2 The Old Bakery, Lees Road, Yalding, Maidstone, Kent ME18 6HB</div>	
 
 						<div class='clear'></div>
 						<div class='h10'></div>

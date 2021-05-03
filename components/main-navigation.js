@@ -23,10 +23,10 @@ class MainNavigation extends HTMLElement {
                   <a href="probate.html"><span>Probate</span></a>
                   <a href="funeral.html"><span>Funeral Planning</span></a>
                   <a href="businessWills.html"><span>Business Wills</span></a>
-                  <a href="contact.html" class="last_submenu_item"><span>Contact Us</span></a>
               </div>
           </div> 
           <a href="prices.html">Prices</a>
+          <a href="videos.html">Videos</a>
           <a href="about.html">About Us</a>
           <a href="contact.html">Contact Us</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
