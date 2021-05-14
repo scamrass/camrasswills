@@ -12,10 +12,9 @@ class PageFooter extends HTMLElement {
         <div id="footer" class="container">
 				<div class="row footer_inside">
 					<div class="four columns">
-						<h3>About Peter</h3>
-						<p>I have over 30 years experience in the ﬁnancial services industry. Twenty of those
-							were working for large UK insurers; National Mutual, Scottish Equitable and Clerical
-							Medical.<a href="about.html"> read more...</a>
+						<h3>About us</h3>
+						<p>Camrass Wills is a small family business which was started by Peter Camrass in 2010.
+							It is now run by Peter and his daughter Lucy Camrass.<br/><a href="about.html"> read more...</a>
 						</p>
 					</div>
 					<div class="four columns">
