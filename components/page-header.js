@@ -37,8 +37,6 @@ class PageHeader extends HTMLElement {
                   <br/>
                   <div class="header_phone">t:<a href="tel:01273 976967">01273 976967</a> m:<a href="tel:07581 119678">07581 119678</a>								</div>
                   <div class="header_mail"><a href="mailto:lucy@camrasswills.co.uk?subject=Website Enquiry">lucy@camrasswills.co.uk</a>&nbsp;&nbsp;</div>
-                  <br/><br/>
-                  <div><a href = "http://safehandsplans.co.uk/aff/1328/camrass-wills"><h3 class="header_funerals"><u><strong>For details of Funeral Plans click here.</strong></u></h3></a></div>
               </div>			
           </div>
       </div>
