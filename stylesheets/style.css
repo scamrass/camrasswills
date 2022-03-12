@@ -893,11 +893,6 @@ display: block;
 	padding-left: 23px;
 	background: url('../images/header_mail.png') left center no-repeat;
 }
-.header_funerals{
-	float: right;
-	display: inline;
-	margin: 0 14px 5px 0;
-}
 
 .header_soc_search {
 	margin-bottom: 6px;
@@ -2894,8 +2889,6 @@ body {
 	.header_contacts 	{ text-align: center; margin: 20px 0 30px; height: auto; }
 	.header_phone		{ float: none; display: inline; margin: 4px 14px 5px 0; }
 	.header_mail 		{ float: none; display: inline; margin-top: 4px;}
-	.header_funerals       { float: none; display: inline; margin-top: 4px;}
-
 
 	.header_search		{ float: left; }
 	#s					{ right: auto;}   	
