@@ -21,7 +21,6 @@ class MainNavigation extends HTMLElement {
                   <a href="lpafinancial.html"><span>LPA Financial</span></a>
                   <a href="lpahealth.html"><span>LPA Health &amp; Welfare</span></a>
                   <a href="probate.html"><span>Probate</span></a>
-                  <a href="funeral.html"><span>Funeral Planning</span></a>
                   <a href="businessWills.html"><span>Business Wills</span></a>
               </div>
           </div> 
