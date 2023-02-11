@@ -37,7 +37,7 @@ class PageFooter extends HTMLElement {
 					<div class="four columns">
 						<h3>Get in Touch</h3>
 						<div class="icon_phone" title="Phone" >t: <a href="tel:01622 720985">01622 720985</a>
-							<p>m: <a href="tel:07747 007971">07747 007971</a></p>
+							<p>t: <a href="tel:01732 926538">01732 926538</a></p>
 						</div>
 						<div class='icon_mail' title='Email'>peter@camrasswills.co.uk</div>	
 						<div class='icon_loc' title='Location'>2 The Old Bakery, Lees Road, Yalding, Maidstone, Kent ME18 6HB</div>	
@@ -50,7 +50,7 @@ class PageFooter extends HTMLElement {
 				<div class="clear"></div>
 				<div class="footer_btm">
 					<div class="footer_btm_inner">
-						<div id="powered"><a href="http://www.camrasswills.co.uk" target="_blank">Camrass Wills</a> © 2021 &nbsp; | &nbsp; <a href="http://www.brookmead.co.uk" target="_blank">Brookmead</a></div>
+						<div id="powered"><a href="http://www.camrasswills.co.uk" target="_blank">Camrass Wills</a> © 2023 &nbsp; | &nbsp; <a href="http://www.brookmead.co.uk" target="_blank">Brookmead</a></div>
 					</div>	  
 				</div>
 			</div>
